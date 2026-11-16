@@ -28,8 +28,8 @@
 					<div class="card">
 						<div class="card-body">
 							<h3 class="card-title font-weight-bold" style="font-size: 1.5rem;"><i class="fas fa-plus-circle mr-2 text-primary"></i>Tambah Produk</h3>
-							<div class="clearfix"></div>
 							<br>
+							<hr>
 
 							<form method="post" enctype="multipart/form-data">
 								<div class="mb-3">

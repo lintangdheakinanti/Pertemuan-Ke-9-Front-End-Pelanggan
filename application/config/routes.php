@@ -62,6 +62,12 @@ $route['admin/kategori/tambah'] = 'administrator/kategori_controller/tambah_kate
 $route['admin/kategori/ubah/(:num)'] = 'administrator/kategori_controller/ubah_kategori/$1';
 $route['admin/kategori/hapus/(:num)'] = 'administrator/kategori_controller/hapus_kategori/$1';
 
+//admin-ongkir
+$route['admin/Ongkir2422500013'] = 'administrator/Ongkir2422500013_controller/index';
+$route['admin/Ongkir2422500013/tambah'] = 'administrator/Ongkir2422500013_controller/tambah_ongkir';
+$route['admin/Ongkir2422500013/ubah/(:num)'] = 'administrator/Ongkir2422500013_controller/ubah_ongkir/$1';
+$route['admin/Ongkir2422500013/hapus/(:num)'] = 'administrator/Ongkir2422500013_controller/hapus_ongkir/$1';
+
 //admin-produk
 $route['admin/produk'] = 'administrator/produk_controller/index';
 $route['admin/produk/tambah'] = 'administrator/produk_controller/tambah_produk';
@@ -73,3 +79,11 @@ $route['admin/produk/hapus_gambar/(:num)'] = 'administrator/produk_controller/ha
 
 //admin-ubah gambar produk (dalam ubah_produk.php)
 $route['admin/produk/ubah_gambar/(:num)'] = 'administrator/produk_controller/ubah_gambar/$1';
+
+//pelanggan-needs
+$route['login'] = 'pelanggan_controller/login';
+$route['register'] = 'pelanggan_controller/register';
+$route['logout'] = 'pelanggan_controller/logout';
+
+//pelanggan-sidebar
+$route['profil'] = 'pelanggan_controller/profil';

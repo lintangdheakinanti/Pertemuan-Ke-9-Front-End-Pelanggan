@@ -28,6 +28,8 @@
 					<div class="card">
 						<div class="card-body">
 							<h3 class="card-title font-weight-bold" style="font-size: 1.5rem;"><i class="fas fa-plus-circle mr-2 text-primary"></i>Tambah Kategori</h3>
+							<br>
+							<hr>
 
 							<p class="card-text">
 								<form method="post">
